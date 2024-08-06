@@ -1,13 +1,19 @@
-## EXP-7
+# experiment-7
+# Aim: 
+To study and implement C++ Arrays and Strings
 
-## AIM: To study and implement C++ Arrays and Strings
+# Software used
+Vs code 
 
-## THEORY:
+# Theory 
+An array stores a fixed-size sequential collection of elements of the same type. All arrays consist of contiguous memory locations. 
+The lowest address corresponds to the first element and the highest address to the last element
+To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ]
+You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50}
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
-An array stores a fixed-size sequential collection of elements of the same type. All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ] You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50} Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
-
-## CODE 1: Creating Array Declaration
-
+# 1. creating array declaration 
+~~~
 #include<iostream>
 using namespace std;
 
@@ -28,16 +34,12 @@ int main()
     }
     return 0;
 }
+~~~
+# output
+![image](https://github.com/user-attachments/assets/6e3f9235-171a-47eb-85cd-03eb3ed48378)
 
-## OUTPUT 1:
-
-<img width="842" alt="image" src="https://github.com/user-attachments/assets/75089078-8226-46f2-a4d5-161f388bc5a4">
-
-## CODE 2: Reversing An Array
-
-//Name: Saaj Mulik
-//Prn: 23070123109
-//Class: EnTC B-2
+# 2. reversing an array 
+~~~
 #include<iostream>
 using namespace std;
 
@@ -70,16 +72,13 @@ int main()
         cout<<a2[l];
     }
 }
+~~~
 
-## OUTPUT 2:
+# output 
+![image](https://github.com/user-attachments/assets/4511c6f0-8050-49a4-b6c0-6a11b0d20460)
 
-<img width="839" alt="image" src="https://github.com/user-attachments/assets/44a08fbb-1866-4017-bc6a-b25cb3859f8b">
-
-## CODE 3: Input Output
-
-//Name: Saaj Mulik
-//Prn: 23070123109
-//Class: EnTC B-2
+# 3. creating InputOutput 
+~~~
 #include <iostream>
 using namespace std;
 
@@ -103,17 +102,12 @@ int main() {
     cout << endl;
     return 0;
 }
+~~~
+# output 
+![image](https://github.com/user-attachments/assets/b3ef6ed9-9867-4ce8-a10a-1bdaea0ddbc5)
 
-## OUTPUT 3:
-
-<img width="836" alt="image" src="https://github.com/user-attachments/assets/02ada77f-0712-4e7e-a838-709752b7077a">
-
-
-## CODE 4: Array Addition And Average
-
-//Name: Saaj Mulik
-//Prn: 23070123109
-//Class: EnTC B-2
+# 4. array addition and average 
+~~~
 #include <iostream>
 using namespace std;
 
@@ -140,17 +134,12 @@ int main()
   cout << "Their Average = " << average << endl;
   return 0;
 }
+~~~
+# output 
+![image](https://github.com/user-attachments/assets/3994981d-35e1-41ac-bd19-b20917d2f5c1)
 
-## OUTPUT 4:
-
-<img width="841" alt="image" src="https://github.com/user-attachments/assets/cdbab7e9-dcd1-4460-944e-ae08508df6fb">
-
-
-## CODE 5: Finding Max And Min
-
-//Name: Saaj Mulik
-//Prn: 23070123109
-//Class: EnTC B-2
+# 5. find max and min
+~~~
 #include<iostream>
 using namespace std;
 int main() {
@@ -176,16 +165,12 @@ int main() {
     cout<<"Maximum: "<<max<<endl;
     cout<<"Minimum: "<<min;
 }
+~~~
+# output 
+![image](https://github.com/user-attachments/assets/63f2ae4a-6fee-49ac-880a-54df1e3d923f)
 
-## OUTPUT 5:
-
-<img width="839" alt="image" src="https://github.com/user-attachments/assets/5b20c3cd-1804-4f28-80be-680cdbf0a17e">
-
-## CODE 6: Search
-
-//Name: Saaj Mulik
-//Prn: 23070123109
-//Class: EnTC B-2
+# search 
+~~~
 #include<iostream>
 using namespace std;
 int main() 
@@ -219,10 +204,6 @@ int main()
 
     return 0;
 }
-
-## OUTPUT 6:
-
-<img width="839" alt="image" src="https://github.com/user-attachments/assets/8bc13771-c115-4a99-890e-9f6a568d0794">
-
-
-## CONCLUSION: -
+~~~
+# output
+![image](https://github.com/user-attachments/assets/535c1795-e40e-44dd-9740-90f612f7e072)
