@@ -232,26 +232,3 @@ int main()
 
 # Conclusion:
 
-Arrays
-Definition: Arrays are a collection of elements of the same type stored in contiguous memory locations.
-Benefits:
-Simple and efficient way to store and access data.
-Supports static and dynamic allocation.
-Implementation:
-Static Arrays: Defined with a fixed size at compile-time.
-Dynamic Arrays: Use pointers and functions like new and delete for dynamic memory management.
-Common Operations:
-Initialization, traversal, insertion, deletion, and searching.
-Strings
-Definition: Strings in C++ are sequences of characters.
-Types:
-C-strings: Arrays of characters terminated by a null character ('\0').
-std::string: Part of the C++ Standard Library, offering more functionality and ease of use.
-Benefits:
-C-strings are lightweight and fast for simple operations.
-std::string provides robust handling of string operations, including dynamic resizing, concatenation, and various utility functions.
-Implementation:
-C-strings: Require manual handling of memory and termination.
-std::string: Automatically manages memory and provides built-in functions for common tasks.
-Common Operations:
-Concatenation, comparison, substring extraction, and finding characters or substrings.
