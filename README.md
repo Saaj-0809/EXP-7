@@ -1,5 +1,5 @@
-# EXP-7
-# EXP-1
+## EXP-7
+## EXP-1
 ## AIM: To study and implement C++ Arrays and Strings
 
 ## SOFTWARE USED: 
@@ -33,7 +33,7 @@ int main()
     return 0;
 }
 
-## OUTPUT1:
+## OUTPUT 1:
 
 <img width="842" alt="image" src="https://github.com/user-attachments/assets/75089078-8226-46f2-a4d5-161f388bc5a4">
 
@@ -72,6 +72,146 @@ int main()
     }
 }
 
-## OUTPUT2:
+## OUTPUT 2:
 
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/44a08fbb-1866-4017-bc6a-b25cb3859f8b">
+
+## CODE 3: Input Output
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int size;
+
+    cout << "Enter the size of the array: ";
+    cin >> size;
+   
+    int array[size];
+
+    cout << "Enter " << size << " elements:" << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> array[i];
+    }
+    cout << "The elements of the array are:" << endl;
+    for (int i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+
+    cout << endl;
+    return 0;
+}
+
+## OUTPUT 3:
+
+<img width="836" alt="image" src="https://github.com/user-attachments/assets/02ada77f-0712-4e7e-a838-709752b7077a">
+
+
+## CODE 4: Array Addition And Average
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int numbers[] = {6,7,8,9,3,5};
+
+  int sum = 0;
+  int count = 0;
+  int average;
+
+  cout << "The numbers are: ";
+
+  for (const int n : numbers) 
+  {
+    cout << n << "  ";
+    sum += n;
+    ++count;
+  }
+
+  cout << "Sum = " << sum << endl;
+
+  average = sum / count;
+  cout << "Their Average = " << average << endl;
+  return 0;
+}
+
+## OUTPUT 4:
+
+<img width="841" alt="image" src="https://github.com/user-attachments/assets/cdbab7e9-dcd1-4460-944e-ae08508df6fb">
+
+
+## CODE 5: Finding Max And Min
+
+#include<iostream>
+using namespace std;
+int main() {
+    int n, i, max=0;
+    cout<<"number of elements: ";
+    cin>>n;
+    int a[n];
+    for(i=0;i<n;i++){
+        cout<<"enter element: "<<i<<": ";
+        cin>>a[i];
+    }
+    for(i=0;i<n;i++){
+        if(a[i]>max){
+            max=a[i];
+        }
+    }
+    int min=a[0];
+    for(i=0;i<n;i++){
+        if(min>a[i]){
+            min=a[i];
+        }
+    }
+    cout<<"Maximum: "<<max<<endl;
+    cout<<"Minimum: "<<min;
+}
+
+## OUTPUT 5:
+
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/5b20c3cd-1804-4f28-80be-680cdbf0a17e">
+
+## CODE 6: Search
+
+#include<iostream>
+using namespace std;
+int main() 
+{
+    int marks[5];
+    int num, count = 0;
+
+    for (int i = 0; i < 5; i++) 
+    {
+        cout << "Enter element " << i + 1 << ": ";
+        cin >> marks[i];
+    }
+
+    cout << "Enter element to be searched: ";
+    cin >> num;
+
+    for (int i = 0; i < 5; i++) 
+    {
+        if (marks[i] == num) 
+        {
+            cout << "Position of " << num << ": " << i + 1 << endl;
+            count++;
+        }
+    }
+
+    if (count == 0) {
+        cout << "Element not present" << endl;
+    } else {
+        cout << "Element is present: " << count << " times" << endl;
+    }
+
+    return 0;
+}
+
+## OUTPUT 6:
+
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/8bc13771-c115-4a99-890e-9f6a568d0794">
+
+
+## CONCLUSION: -
