@@ -1,9 +1,6 @@
 ## EXP-7
+
 ## AIM: To study and implement C++ Arrays and Strings
-
-## SOFTWARE USED: 
-
-VS CODE
 
 ## THEORY:
 
