@@ -8,9 +8,6 @@ An array stores a fixed-size sequential collection of elements of the same type.
 
 ## CODE 1: Creating Array Declaration
 
-//Name: Saaj Mulik
-//Prn: 23070123109
-//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
