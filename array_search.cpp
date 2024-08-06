@@ -2,10 +2,6 @@
 //Prn: 23070123109
 //experiment 7: Arrays And Strings 
 
-//Sreejita Bhardwaj 
-//Prn: 23070123130 
-//experiment 7: arrays and strings 
-
 #include<iostream>
 using namespace std;
 int main() 
