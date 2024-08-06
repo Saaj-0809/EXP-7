@@ -36,9 +36,10 @@ int main()
     return 0;
 }
 ~~~
+
 # Output: -
 
-<img width="481" alt="image" src="https://github.com/user-attachments/assets/2a2056cb-bdd9-4525-b6cb-27c9ac2fe0c2">
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/2050b287-4ea4-4bcd-b9bf-94dbe7674155">
 
 # 2. Reversing An Array: 
 ~~~
@@ -81,7 +82,7 @@ int main()
 
 # Output: 
 
-<img width="481" alt="image" src="https://github.com/user-attachments/assets/639a786b-8815-4396-be20-ff9e8a563848">
+<img width="477" alt="image" src="https://github.com/user-attachments/assets/cdf02a7e-9c49-4e4e-a7f3-34c1f28c2fea">
 
 # 3. Creating Input Output: 
 ~~~
@@ -114,7 +115,7 @@ int main() {
 ~~~
 # Output: - 
 
-<img width="464" alt="image" src="https://github.com/user-attachments/assets/b715763f-6063-4ae7-9b72-61ac69987abd">
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/4177a29e-0b49-4552-b9af-55fe873354b6">
 
 # 4. Array Addition And Average: 
 ~~~
@@ -150,7 +151,7 @@ int main()
 ~~~
 # Output: 
 
-<img width="469" alt="image" src="https://github.com/user-attachments/assets/6faea8ab-8521-4bab-8267-a5f98b4f8c9e">
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/ae25e6ff-50d6-49c3-995b-22fbb2872a4e">
 
 # 5. Find Max And Min: 
 ~~~
@@ -185,7 +186,7 @@ int main() {
 ~~~
 # Output:  
 
-
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/5fd41e39-eac9-4710-a897-11885a28b3c3">
 
 # Search: 
 ~~~
@@ -228,7 +229,7 @@ int main()
 ~~~
 # Output: 
 
-
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/42f31887-14d2-4783-b2b6-e980e790ba4d">
 
 # Conclusion:
 
