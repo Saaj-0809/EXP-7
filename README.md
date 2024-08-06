@@ -8,6 +8,9 @@ An array stores a fixed-size sequential collection of elements of the same type.
 
 ## CODE 1: Creating Array Declaration
 
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
@@ -35,6 +38,9 @@ int main()
 
 ## CODE 2: Reversing An Array
 
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
@@ -74,6 +80,9 @@ int main()
 
 ## CODE 3: Input Output
 
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include <iostream>
 using namespace std;
 
@@ -105,6 +114,9 @@ int main() {
 
 ## CODE 4: Array Addition And Average
 
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include <iostream>
 using namespace std;
 
@@ -139,6 +151,9 @@ int main()
 
 ## CODE 5: Finding Max And Min
 
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 int main() {
@@ -171,6 +186,9 @@ int main() {
 
 ## CODE 6: Search
 
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 int main() 
