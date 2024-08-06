@@ -1,16 +1,16 @@
-# experiment-7
+# Experiment-7
+
 # Aim: 
 To study and implement C++ Arrays and Strings
 
-
-# Theory: -
+# Theory: 
 An array stores a fixed-size sequential collection of elements of the same type. All arrays consist of contiguous memory locations. 
 The lowest address corresponds to the first element and the highest address to the last element
 To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ]
 You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50}
 Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
-# 1. Creating Array Declaration: -
+# 1. Creating Array Declaration: 
 ~~~
 #include<iostream>
 using namespace std;
@@ -37,7 +37,7 @@ int main()
 
 ![WhatsApp Image 2024-08-06 at 22 43 10_5a07336c](https://github.com/user-attachments/assets/25d8aadb-6136-411a-a32c-e17eb37a7a25)
 
-# 2. Reversing An Array: -
+# 2. Reversing An Array: 
 ~~~
 #include<iostream>
 using namespace std;
@@ -73,11 +73,11 @@ int main()
 }
 ~~~
 
-# Output: - 
+# Output: 
 
 ![WhatsApp Image 2024-08-06 at 22 58 37_e5b9c262](https://github.com/user-attachments/assets/89aedb80-645a-4d98-bfbf-12807a15b557)
 
-# 3. Creating Input Output: -
+# 3. Creating Input Output: 
 ~~~
 #include <iostream>
 using namespace std;
@@ -107,7 +107,7 @@ int main() {
 
 ![WhatsApp Image 2024-08-06 at 23 07 20_f81c60b3](https://github.com/user-attachments/assets/39f79266-b2a4-485f-a435-fa62c5ebfe46)
 
-# 4. Array Addition And Average: -
+# 4. Array Addition And Average: 
 ~~~
 #include <iostream>
 using namespace std;
@@ -136,11 +136,11 @@ int main()
   return 0;
 }
 ~~~
-# Output: -
+# Output: 
 
 ![WhatsApp Image 2024-08-06 at 23 11 54_1d35dbd9](https://github.com/user-attachments/assets/a04aebe0-3e51-4840-862e-0fedf272c74b)
 
-# 5. Find Max And Min: -
+# 5. Find Max And Min: 
 ~~~
 #include<iostream>
 using namespace std;
@@ -168,11 +168,11 @@ int main() {
     cout<<"Minimum: "<<min;
 }
 ~~~
-# Output: - 
+# Output:  
 
 ![WhatsApp Image 2024-08-06 at 23 34 34_1251ecae](https://github.com/user-attachments/assets/5c245bbe-ea60-48b8-bc32-be05dd351e76)
 
-# Search: -
+# Search: 
 ~~~
 #include<iostream>
 using namespace std;
@@ -208,7 +208,7 @@ int main()
     return 0;
 }
 ~~~
-# Output: -
+# Output: 
 
 ![WhatsApp Image 2024-08-06 at 23 35 13_03e2b5c5](https://github.com/user-attachments/assets/7b324ece-4e50-4c4d-aa18-a13cb6a476a1)
 
