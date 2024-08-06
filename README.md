@@ -188,7 +188,7 @@ int main() {
 
 <img width="464" alt="image" src="https://github.com/user-attachments/assets/5fd41e39-eac9-4710-a897-11885a28b3c3">
 
-# Search: 
+# 6. Search: 
 ~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
