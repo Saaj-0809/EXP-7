@@ -12,6 +12,9 @@ Arrays are used to store multiple values in a single variable, instead of declar
 
 # 1. Creating Array Declaration: 
 ~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
@@ -39,6 +42,9 @@ int main()
 
 # 2. Reversing An Array: 
 ~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
@@ -79,6 +85,9 @@ int main()
 
 # 3. Creating Input Output: 
 ~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include <iostream>
 using namespace std;
 
@@ -109,6 +118,9 @@ int main() {
 
 # 4. Array Addition And Average: 
 ~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include <iostream>
 using namespace std;
 
@@ -142,6 +154,9 @@ int main()
 
 # 5. Find Max And Min: 
 ~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 int main() {
@@ -174,6 +189,9 @@ int main() {
 
 # Search: 
 ~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 int main() 
@@ -212,4 +230,5 @@ int main()
 
 ![WhatsApp Image 2024-08-06 at 23 35 13_03e2b5c5](https://github.com/user-attachments/assets/7b324ece-4e50-4c4d-aa18-a13cb6a476a1)
 
+# Conclusion:
 
