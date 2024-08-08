@@ -228,12 +228,12 @@ int main()
 <img width="454" alt="image" src="https://github.com/user-attachments/assets/42f31887-14d2-4783-b2b6-e980e790ba4d">
 
 # 7. String:
-~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
 #include<iostream>
 using namespace std;
+
 int main()
 {
     string a; 
@@ -245,10 +245,9 @@ int main()
 
 # Output: 
 
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/21fedc26-b053-4ebc-b778-cb6e2fbbc353">
+<img width="408" alt="image" src="https://github.com/user-attachments/assets/d5425872-2c32-49d0-8c5a-3e3c367bfeb7">
 
-# 8. String Concaternation: 
-~~~
+# 8. String Concaternation:
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
@@ -269,12 +268,11 @@ int main()
     return 0;
 }
 
-# Output: 
+# Output:
 
-<img width="562" alt="image" src="https://github.com/user-attachments/assets/574b8ec0-818f-451a-8455-0883c93b07a8">
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/2c57200c-5b7a-4b96-a99c-0317ec6e4ede">
 
 # 9. String Reversal:
-~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
@@ -299,10 +297,9 @@ int main()
 
 # Output:
 
-<img width="574" alt="image" src="https://github.com/user-attachments/assets/0c364f6a-e7e0-423e-ac8f-faf846d4b611">
+<img width="569" alt="image" src="https://github.com/user-attachments/assets/b44c19f3-4e7e-437d-943a-81b1426c2ea8">
 
-# 10. String Palindrome:
-~~~
+# 10. String Palindrome: 
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
@@ -341,7 +338,7 @@ int main()
 
 # Output:
 
-<img width="548" alt="image" src="https://github.com/user-attachments/assets/53f36d22-9d8f-4f05-b7a9-84a550dd4ba9">
+<img width="533" alt="image" src="https://github.com/user-attachments/assets/730b5229-b5c5-4d71-8db8-e939be4b8bf2">
 
 # Conclusion:
 Mastering arrays and strings in C++ is crucial for efficient data manipulation. Arrays allow you to store elements of the same type in contiguous memory locations, making data management straightforward. Strings, which handle sequences of characters, can be managed using either C-strings or the more versatile std::string class from the Standard Library. While std::string offers more functionality and ease of use, understanding C-strings is important for low-level programming. Practicing with both arrays and strings will build a solid foundation and enhance your overall proficiency in C++.
