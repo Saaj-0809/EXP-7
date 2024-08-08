@@ -6,6 +6,8 @@ To study and implement C++ Arrays and Strings
 # Theory: 
 An array stores a fixed-size sequential collection of elements of the same type. All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ] You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50} Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. | strings | arrays | | it is a class that defines a objects in characters | array of characters terminated by null characters | | it can define a number of functions | do not have a lot of functions inbuilt |
 
+![WhatsApp Image 2024-08-08 at 22 51 55_0e47c5a9](https://github.com/user-attachments/assets/cd836d33-871e-49d9-bb73-d11d516d50b8)
+
 # 1. Creating Array Declaration: 
 ~~~
 //Name: Saaj Mulik
@@ -228,12 +230,12 @@ int main()
 <img width="454" alt="image" src="https://github.com/user-attachments/assets/42f31887-14d2-4783-b2b6-e980e790ba4d">
 
 # 7. String:
+~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
 #include<iostream>
 using namespace std;
-
 int main()
 {
     string a; 
@@ -242,12 +244,14 @@ int main()
     cout<<"the string is: "<<a<<endl;
     return 0;
 }
+~~~
 
 # Output: 
 
 <img width="408" alt="image" src="https://github.com/user-attachments/assets/d5425872-2c32-49d0-8c5a-3e3c367bfeb7">
 
 # 8. String Concaternation:
+~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
@@ -267,12 +271,13 @@ int main()
 
     return 0;
 }
-
+~~~
 # Output:
 
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/2c57200c-5b7a-4b96-a99c-0317ec6e4ede">
 
 # 9. String Reversal:
+~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
@@ -294,12 +299,13 @@ int main()
 
     return 0; 
 }
-
+~~~
 # Output:
 
 <img width="569" alt="image" src="https://github.com/user-attachments/assets/b44c19f3-4e7e-437d-943a-81b1426c2ea8">
 
 # 10. String Palindrome: 
+~~~
 //Name: Saaj Mulik
 //Prn: 23070123109
 //Class: EnTC B-2
@@ -335,7 +341,7 @@ int main()
 
     return 0;
 }
-
+~~~
 # Output:
 
 <img width="533" alt="image" src="https://github.com/user-attachments/assets/730b5229-b5c5-4d71-8db8-e939be4b8bf2">
