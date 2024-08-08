@@ -4,11 +4,7 @@
 To study and implement C++ Arrays and Strings
 
 # Theory: 
-An array stores a fixed-size sequential collection of elements of the same type. All arrays consist of contiguous memory locations. 
-The lowest address corresponds to the first element and the highest address to the last element
-To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ]
-You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50}
-Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+An array stores a fixed-size sequential collection of elements of the same type. All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element To declare an array in C++, we must specify the type of elements and the number of elements required by an array −: type arrayName [ array_size ] You can initialize C++ array elements either one by one or using a single statement as follows −: int arr[5] = {1000, 2, 3, 17, 50} Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. | strings | arrays | | it is a class that defines a objects in characters | array of characters terminated by null characters | | it can define a number of functions | do not have a lot of functions inbuilt |
 
 # 1. Creating Array Declaration: 
 ~~~
@@ -231,6 +227,121 @@ int main()
 
 <img width="454" alt="image" src="https://github.com/user-attachments/assets/42f31887-14d2-4783-b2b6-e980e790ba4d">
 
-# Conclusion:
+# 7. String:
+~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
+#include<iostream>
+using namespace std;
+int main()
+{
+    string a; 
+    cout<<"enter a string: ";
+    cin>>a;
+    cout<<"the string is: "<<a<<endl;
+    return 0;
+}
 
+# Output: 
+
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/21fedc26-b053-4ebc-b778-cb6e2fbbc353">
+
+# 8. String Concaternation: 
+~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string a,b,c; 
+    cout<<"enter a string a: ";
+    cin>>a;
+    cout<<"enter a string b: ";
+    cin>>b;
+
+    c=a+b;
+    cout<<"concaternation of the strings is: "<<c; 
+
+    return 0;
+}
+
+# Output: 
+
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/574b8ec0-818f-451a-8455-0883c93b07a8">
+
+# 9. String Reversal:
+~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    string a;
+    int i;
+    cout<<"enter a string: ";
+    getline(cin,a);
+
+    for(i=a.length()-1;i>=0;i--)
+    {
+        cout<<a[i ];
+    }
+
+    return 0; 
+}
+
+# Output:
+
+<img width="574" alt="image" src="https://github.com/user-attachments/assets/0c364f6a-e7e0-423e-ac8f-faf846d4b611">
+
+# 10. String Palindrome:
+~~~
+//Name: Saaj Mulik
+//Prn: 23070123109
+//Class: EnTC B-2
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    string a;
+    cout << "Enter a string: ";
+    cin >> a;
+    int n = a.length();
+    int var = 1;
+    
+    for(int i = 0; i < n / 2; i++)
+    {
+        if(a[i] != a[n - i - 1])
+        {
+            var = 0;
+            break;
+        }
+    }
+    
+    if (var == 1)
+    {
+        cout << "The string is a palindrome." << endl;
+    }
+    else
+    {
+        cout << "The string is not a palindrome." << endl;
+    }
+
+    return 0;
+}
+
+# Output:
+
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/53f36d22-9d8f-4f05-b7a9-84a550dd4ba9">
+
+# Conclusion:
 Mastering arrays and strings in C++ is crucial for efficient data manipulation. Arrays allow you to store elements of the same type in contiguous memory locations, making data management straightforward. Strings, which handle sequences of characters, can be managed using either C-strings or the more versatile std::string class from the Standard Library. While std::string offers more functionality and ease of use, understanding C-strings is important for low-level programming. Practicing with both arrays and strings will build a solid foundation and enhance your overall proficiency in C++.
